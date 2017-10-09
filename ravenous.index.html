@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+	<meta name="theme-color" content="#000000">
+	<link href="./reset.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,500,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600" rel="stylesheet">
+	<link rel="shortcut icon" href="./favicon.ico">
+	<title>Afstandsmeter</title>
+	<!-- <link href="./main.6ada9626.css" rel="stylesheet"> -->
+
+	<link href="./css/App.css" type="text/css" rel="stylesheet">
+	<link href="./css/Business.css" type="text/css" rel="stylesheet">
+	<link href="./css/BusinessList.css" type="text/css" rel="stylesheet">
+	<link href="./css/SearchBar.css" type="text/css" rel="stylesheet">
+
+
+</head>
+<body>
+	<div id="root">
+		<div class="App">
+			<h1>Afstandsmeter</h1>
+			<div class="SearchBar">
+				<div class="SearchBar-sort-options">
+				</div>
+				<h3 style="text-align: center; color: white;">Ik wil de afstand meten tussen:</h3>
+				<div class="SearchBar-fields">
+					<input placeholder="Voer hier plaats 1 in">
+					<input placeholder="Voer hier plaats 2 in">
+				</div>
+				<div class="SearchBar-submit">
+					<a>Bereken de afstand</a>
+				</div>
+			</div>
+			<br></br>
+			<h2 style="text-align:center; font-size:160%;">Resultaten</h2>
+			<br></br>
+			<p style="text-align:center;">De afstand tussen de ingevoerde plaatsen is: </p><p id="afstand" style="text-align:center;">300 meter</p>
+			<div class="BusinessList">
+				<div class="Business">
+					<div class="image-container">
+						<img style="background-size: contain;" src="./css/foto.jpg" alt="">
+					</div>
+					<h2 id="input1">Plaats 1</h2>
+					<div class="Business-information">
+						<div class="Business-address">
+							<p id="adres1">Adres</p>
+							<p id="plaats1">Plaats</p>
+							<p id="postcode1">Postcode</p>
+						</div>
+							<div class="Business-reviews">
+							<h3></h3>
+						</div>
+					</div>
+				</div>
+				<div class="Business">
+					<div class="image-container">
+						<img src="./css/foto.jpg" alt="">
+					</div>
+					<h2 id="input2">Plaats 2</h2>
+					<div class="Business-information">
+						<div class="Business-address">
+							<p id="adres2">Adres</p>
+							<p id="plaats2">Plaats</p>
+							<p id="postcode2">Postcode</p>
+						</div>
+						<div class="Business-reviews">
+							<h3></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
